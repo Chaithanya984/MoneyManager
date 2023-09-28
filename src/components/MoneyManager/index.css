@@ -1,0 +1,139 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  width: 90%;
+  border-radius: 20px;
+  background-color: red;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hi {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #475569;
+}
+.welcome {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+.spa {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #0b69ff;
+}
+.ul-container {
+  width: 90%;
+  height: 130px;
+  padding: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+.sub-container {
+  width: 500px;
+
+  padding: 20px;
+  margin-right: 148px;
+}
+.add {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+#TITLES {
+  height: 40px;
+  width: 70%;
+  border-color: orange;
+  border-width: 3px;
+  outline: orange;
+  margin-bottom: 15px;
+}
+.myLa {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: orange;
+}
+#AMOUNTS {
+  height: 40px;
+  width: 70%;
+  border-color: orange;
+  border-width: 3px;
+  outline: orange;
+  margin-bottom: 15px;
+}
+.myLa {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: orange;
+}
+#INCOMES {
+  height: 40px;
+  width: 70%;
+  border-color: orange;
+  border-width: 3px;
+  outline: orange;
+  margin-bottom: 15px;
+
+  background-color: orange;
+}
+.myLa {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: orange;
+}
+.buton {
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: blue;
+  border-width: 0px;
+  color: white;
+}
+.sub-sub-sub-container {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+.ul-li-container {
+  width: 98%;
+
+  padding: 0px;
+}
+.box-li-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+
+  border-width: 2px;
+  border-color: green;
+  border-style: solid;
+  list-style-type: none;
+}
+.para {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
